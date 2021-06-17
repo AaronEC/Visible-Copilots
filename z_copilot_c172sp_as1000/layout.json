@@ -1,9 +1,14 @@
 {
   "content": [
     {
-      "path": "SimObjects/Airplanes/Asobo_C172sp_AS1000/model/Cessna172SP_AS1000_interior_LOD00.gltf",
+      "path": "SimObjects/Airplanes/Asobo_C172sp_AS1000/model/Cessna172SP_AS1000_interior_LOD00 - Copy.gltf",
       "size": 1516431,
-      "date": 132555585101382471
+      "date": 132555666568183319
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_C172sp_AS1000/model/Cessna172SP_AS1000_interior_LOD00.gltf",
+      "size": 1516551,
+      "date": 132684316418497176
     }
   ]
 }

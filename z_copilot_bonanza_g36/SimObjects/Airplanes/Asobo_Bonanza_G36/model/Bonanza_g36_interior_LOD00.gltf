@@ -29997,6 +29997,72 @@
             "name": "x0_DECALS_Info_indices#0"
         },
         {
+            "bufferView": 4,
+            "byteOffset": 10146276,
+            "componentType": 5126,
+            "count": 20,
+            "min": [
+                -0.2994663119316101,
+                0.0,
+                -0.028212405741214753
+            ],
+            "max": [
+                0.2994663119316101,
+                0.17573611438274384,
+                0.04363423213362694
+            ],
+            "type": "VEC3",
+            "name": "Box001_vertices#0_POSITION"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 10146288,
+            "componentType": 5120,
+            "count": 20,
+            "type": "VEC4",
+            "name": "Box001_vertices#0_TANGENT"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 10146292,
+            "componentType": 5120,
+            "count": 20,
+            "type": "VEC4",
+            "name": "Box001_vertices#0_NORMAL"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 10146296,
+            "componentType": 5122,
+            "count": 20,
+            "type": "VEC2",
+            "name": "Box001_vertices#0_TEXCOORD_0"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 10146300,
+            "componentType": 5122,
+            "count": 20,
+            "type": "VEC2",
+            "name": "Box001_vertices#0_TEXCOORD_1"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 10146304,
+            "componentType": 5123,
+            "count": 20,
+            "type": "VEC4",
+            "name": "Box001_vertices#0_COLOR_0"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 2354946,
+            "componentType": 5123,
+            "count": 30,
+            "type": "SCALAR",
+            "name": "Box001_indices#4"
+        },
+        {
             "bufferView": 6,
             "componentType": 5126,
             "count": 1443,
@@ -30072,7 +30138,7 @@
         },
         {
             "bufferView": 5,
-            "byteOffset": 2354946,
+            "byteOffset": 2355006,
             "componentType": 5123,
             "count": 7596,
             "type": "SCALAR",
@@ -30155,7 +30221,7 @@
         },
         {
             "bufferView": 5,
-            "byteOffset": 2370138,
+            "byteOffset": 2370198,
             "componentType": 5123,
             "count": 7596,
             "type": "SCALAR",
@@ -37228,7 +37294,7 @@
         },
         {
             "buffer": 0,
-            "byteLength": 10146276,
+            "byteLength": 10146996,
             "byteStride": 36,
             "byteOffset": 102992,
             "target": 34962,
@@ -37236,8 +37302,8 @@
         },
         {
             "buffer": 0,
-            "byteLength": 2385330,
-            "byteOffset": 10249268,
+            "byteLength": 2385390,
+            "byteOffset": 10249988,
             "target": 34963,
             "name": "BufferViewIndex"
         },
@@ -37245,7 +37311,7 @@
             "buffer": 0,
             "byteLength": 138528,
             "byteStride": 48,
-            "byteOffset": 12634600,
+            "byteOffset": 12635380,
             "target": 34962,
             "name": "BufferViewVertex4Blend"
         }
@@ -40817,16 +40883,16 @@
             "primitives": [
                 {
                     "attributes": {
-                        "COLOR_0": 3032,
-                        "JOINTS_0": 3030,
-                        "NORMAL": 3027,
-                        "POSITION": 3025,
-                        "TANGENT": 3026,
-                        "TEXCOORD_0": 3028,
-                        "TEXCOORD_1": 3029,
-                        "WEIGHTS_0": 3031
+                        "COLOR_0": 3039,
+                        "JOINTS_0": 3037,
+                        "NORMAL": 3034,
+                        "POSITION": 3032,
+                        "TANGENT": 3033,
+                        "TEXCOORD_0": 3035,
+                        "TEXCOORD_1": 3036,
+                        "WEIGHTS_0": 3038
                     },
-                    "indices": 3033,
+                    "indices": 3040,
                     "material": 9,
                     "mode": 4,
                     "extras": {
@@ -41040,16 +41106,16 @@
             "primitives": [
                 {
                     "attributes": {
-                        "COLOR_0": 3041,
-                        "JOINTS_0": 3039,
-                        "NORMAL": 3036,
-                        "POSITION": 3034,
-                        "TANGENT": 3035,
-                        "TEXCOORD_0": 3037,
-                        "TEXCOORD_1": 3038,
-                        "WEIGHTS_0": 3040
+                        "COLOR_0": 3048,
+                        "JOINTS_0": 3046,
+                        "NORMAL": 3043,
+                        "POSITION": 3041,
+                        "TANGENT": 3042,
+                        "TEXCOORD_0": 3044,
+                        "TEXCOORD_1": 3045,
+                        "WEIGHTS_0": 3047
                     },
-                    "indices": 3042,
+                    "indices": 3049,
                     "material": 9,
                     "mode": 4,
                     "extras": {
@@ -47304,6 +47370,115 @@
                 }
             ],
             "name": "x0_DECALS_Info"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "COLOR_0": 3030,
+                        "NORMAL": 3027,
+                        "POSITION": 3025,
+                        "TANGENT": 3026,
+                        "TEXCOORD_0": 3028,
+                        "TEXCOORD_1": 3029
+                    },
+                    "indices": 3031,
+                    "material": 2,
+                    "mode": 4,
+                    "extras": {
+                        "ASOBO_primitive": {
+                            "PrimitiveCount": 2,
+                            "VertexType": "VTX",
+                            "VertexVersion": 2
+                        }
+                    }
+                },
+                {
+                    "attributes": {
+                        "COLOR_0": 3030,
+                        "NORMAL": 3027,
+                        "POSITION": 3025,
+                        "TANGENT": 3026,
+                        "TEXCOORD_0": 3028,
+                        "TEXCOORD_1": 3029
+                    },
+                    "indices": 3031,
+                    "material": 6,
+                    "mode": 4,
+                    "extras": {
+                        "ASOBO_primitive": {
+                            "PrimitiveCount": 2,
+                            "StartIndex": 6,
+                            "VertexType": "VTX",
+                            "VertexVersion": 2
+                        }
+                    }
+                },
+                {
+                    "attributes": {
+                        "COLOR_0": 3030,
+                        "NORMAL": 3027,
+                        "POSITION": 3025,
+                        "TANGENT": 3026,
+                        "TEXCOORD_0": 3028,
+                        "TEXCOORD_1": 3029
+                    },
+                    "indices": 3031,
+                    "material": 8,
+                    "mode": 4,
+                    "extras": {
+                        "ASOBO_primitive": {
+                            "PrimitiveCount": 2,
+                            "StartIndex": 12,
+                            "VertexType": "VTX",
+                            "VertexVersion": 2
+                        }
+                    }
+                },
+                {
+                    "attributes": {
+                        "COLOR_0": 3030,
+                        "NORMAL": 3027,
+                        "POSITION": 3025,
+                        "TANGENT": 3026,
+                        "TEXCOORD_0": 3028,
+                        "TEXCOORD_1": 3029
+                    },
+                    "indices": 3031,
+                    "material": 9,
+                    "mode": 4,
+                    "extras": {
+                        "ASOBO_primitive": {
+                            "PrimitiveCount": 2,
+                            "StartIndex": 18,
+                            "VertexType": "VTX",
+                            "VertexVersion": 2
+                        }
+                    }
+                },
+                {
+                    "attributes": {
+                        "COLOR_0": 3030,
+                        "NORMAL": 3027,
+                        "POSITION": 3025,
+                        "TANGENT": 3026,
+                        "TEXCOORD_0": 3028,
+                        "TEXCOORD_1": 3029
+                    },
+                    "indices": 3031,
+                    "material": 10,
+                    "mode": 4,
+                    "extras": {
+                        "ASOBO_primitive": {
+                            "PrimitiveCount": 2,
+                            "StartIndex": 24,
+                            "VertexType": "VTX",
+                            "VertexVersion": 2
+                        }
+                    }
+                }
+            ],
+            "name": "Box001"
         }
     ],
     "nodes": [
@@ -54475,9 +54650,9 @@
         },
         {
             "translation": [
-                0.264116645,
-                0.07719025,
-                0.012013495
+                0.09809884,
+                0.417973965,
+                0.616195261
             ],
             "rotation": [
                 0.0,
@@ -54486,17 +54661,18 @@
                 1.0
             ],
             "scale": [
-                1.0,
-                1.0,
+                1.5839076,
+                0.7763065,
                 1.0
             ],
-            "name": ""
+            "mesh": 299,
+            "name": "Box001"
         },
         {
             "translation": [
                 -0.255796373,
                 0.07719025,
-                0.012013495
+                -0.032013495
             ],
             "rotation": [
                 0.0,
@@ -55136,7 +55312,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 12773128,
+            "byteLength": 12773908,
             "uri": "Bonanza_g36_interior_LOD00.bin"
         }
     ],

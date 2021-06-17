@@ -26832,67 +26832,67 @@
             "bufferView": 4,
             "byteOffset": 9923220,
             "componentType": 5126,
-            "count": 1120,
+            "count": 1026,
             "min": [
                 -0.5261046290397644,
-                0.20085787773132325,
+                0.20085793733596803,
                 -0.21554842591285706
             ],
             "max": [
                 0.5261042714118958,
-                0.9054864048957825,
+                0.9054864645004273,
                 2.4151265621185304
             ],
             "type": "VEC3",
-            "name": "x0_Windshield_vertices#0_POSITION"
+            "name": "x0_WINDSHIELD_vertices#0_POSITION"
         },
         {
             "bufferView": 4,
             "byteOffset": 9923232,
             "componentType": 5120,
-            "count": 1120,
+            "count": 1026,
             "type": "VEC4",
-            "name": "x0_Windshield_vertices#0_TANGENT"
+            "name": "x0_WINDSHIELD_vertices#0_TANGENT"
         },
         {
             "bufferView": 4,
             "byteOffset": 9923236,
             "componentType": 5120,
-            "count": 1120,
+            "count": 1026,
             "type": "VEC4",
-            "name": "x0_Windshield_vertices#0_NORMAL"
+            "name": "x0_WINDSHIELD_vertices#0_NORMAL"
         },
         {
             "bufferView": 4,
             "byteOffset": 9923240,
             "componentType": 5122,
-            "count": 1120,
+            "count": 1026,
             "type": "VEC2",
-            "name": "x0_Windshield_vertices#0_TEXCOORD_0"
+            "name": "x0_WINDSHIELD_vertices#0_TEXCOORD_0"
         },
         {
             "bufferView": 4,
             "byteOffset": 9923244,
             "componentType": 5122,
-            "count": 1120,
+            "count": 1026,
             "type": "VEC2",
-            "name": "x0_Windshield_vertices#0_TEXCOORD_1"
+            "name": "x0_WINDSHIELD_vertices#0_TEXCOORD_1"
         },
         {
             "bufferView": 4,
             "byteOffset": 9923248,
             "componentType": 5123,
-            "count": 1120,
+            "count": 1026,
             "type": "VEC4",
-            "name": "x0_Windshield_vertices#0_COLOR_0"
+            "name": "x0_WINDSHIELD_vertices#0_COLOR_0"
         },
         {
             "bufferView": 5,
             "byteOffset": 2430828,
             "componentType": 5123,
-            "count": 5568,
+            "count": 4983,
             "type": "SCALAR",
-            "name": "x0_Windshield_indices#0"
+            "name": "x0_WINDSHIELD_indices#0"
         },
         {
             "bufferView": 6,
@@ -26970,7 +26970,7 @@
         },
         {
             "bufferView": 5,
-            "byteOffset": 2441964,
+            "byteOffset": 2440794,
             "componentType": 5123,
             "count": 1344,
             "type": "SCALAR",
@@ -27053,7 +27053,7 @@
         },
         {
             "bufferView": 5,
-            "byteOffset": 2444652,
+            "byteOffset": 2443482,
             "componentType": 5123,
             "count": 1344,
             "type": "SCALAR",
@@ -33451,7 +33451,7 @@
         }
     ],
     "asset": {
-        "generator": "babylon.js glTF exporter for 3dsmax 2019 v1.0.7633.28947",
+        "generator": "babylon.js glTF exporter for 3dsmax 2019 v1.0.7690.20642",
         "version": "2.0",
         "extensions": {
             "ASOBO_asset_optimized": {
@@ -33499,7 +33499,7 @@
         },
         {
             "buffer": 0,
-            "byteLength": 9963540,
+            "byteLength": 9960156,
             "byteStride": 36,
             "byteOffset": 116112,
             "target": 34962,
@@ -33507,8 +33507,8 @@
         },
         {
             "buffer": 0,
-            "byteLength": 2447340,
-            "byteOffset": 10079652,
+            "byteLength": 2446170,
+            "byteOffset": 10076268,
             "target": 34963,
             "name": "BufferViewIndex"
         },
@@ -33516,7 +33516,7 @@
             "buffer": 0,
             "byteLength": 24480,
             "byteStride": 48,
-            "byteOffset": 12526992,
+            "byteOffset": 12522440,
             "target": 34962,
             "name": "BufferViewVertex4Blend"
         }
@@ -33773,6 +33773,9 @@
             "extensions": {
                 "ASOBO_material_draw_order": {
                     "drawOrderOffset": 1
+                },
+                "ASOBO_material_kitty_glass": {
+                    "glassReflectionMaskFactor": 1.0
                 }
             }
         },
@@ -43386,14 +43389,14 @@
                     "mode": 4,
                     "extras": {
                         "ASOBO_primitive": {
-                            "PrimitiveCount": 1856,
+                            "PrimitiveCount": 1661,
                             "VertexType": "VTX",
                             "VertexVersion": 2
                         }
                     }
                 }
             ],
-            "name": "x0_Windshield"
+            "name": "x0_WINDSHIELD"
         }
     ],
     "nodes": [
@@ -49775,7 +49778,7 @@
         {
             "translation": [
                 1.14286154e-8,
-                -0.0995280147,
+                -0.09952808,
                 -1.59720016
             ],
             "rotation": [
@@ -49790,32 +49793,13 @@
                 1.0
             ],
             "mesh": 269,
-            "name": "Windshield"
-        },
-        {
-            "translation": [
-                0.22695303,
-                -0.3010049,
-                0.0306411386
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scale": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "name": ""
+            "name": "WINDSHIELD"
         },
         {
             "translation": [
                 -0.22633943,
-                -0.3010049,
-                0.0306411386
+                -0.2510049,
+                -0.0506411386
             ],
             "rotation": [
                 0.0,
@@ -49910,8 +49894,7 @@
                 290,
                 298,
                 304,
-                305,
-                306
+                305
             ]
         }
     ],
@@ -50470,7 +50453,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 12551472,
+            "byteLength": 12546920,
             "uri": "Cessna172SP_AS1000_interior_LOD00.bin"
         }
     ],
